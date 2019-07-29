@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css" >
+    <title>Document</title>
+    <style>
+        .kotakparent{
+            border: 1px solid red;
+            height: 500px
+        }
+
+        .kotakanak{
+            border: 1px solid blue;
+            height: 50%;
+        }
+    
+    </style>
+</head>
+<body>
+   <h1>Grid System Bootstrap</h1>
+    <div class="row kotakparent">
+        <div class="col-sm-6 col-6 kotakanak">
+            <button class="btn btn-primary">Ini Kotak 1</button>
+        </div>
+        <div class="col-sm-6 col-6 kotakanak">
+            <button class="btn btn-primary">Ini Kotak 1</button>
+        </div>
+        <div class="col-sm-6 col-6 kotakanak">
+            <button class="btn btn-primary">Ini Kotak 1</button>
+        </div>
+        <div class="col-sm-6 col-6 kotakanak">
+            <button class="btn btn-primary">Ini Kotak 1</button>
+        </div>
+    </div>
+    <h1>Flex Bootstrap</h1>
+    <div  class="d-flex flex-row mb-3 border border-danger">
+        <div class="p-2 border">Flex 1</div>
+        <div class="p-2 border">Flex 2</div>
+        <div class="p-2 border">Flex 3</div>
+
+    </div>
+
+    <h1>Ini Offset</h1>
+    <div class="row justify-content-md-center">
+        <div class="col-md-6 p-5 border border-danger">
+            ini MD 6
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,514 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "user",
+      "username": "Yuvens",
+      "password": "123123",
+      "transaction": [],
+      "saldo": 550000,
+      "cart": []
+    },
+    {
+      "id": 2,
+      "role": "admin",
+      "username": "Enverd",
+      "password": "456456",
+      "saldo": 830000,
+      "transaction": [
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "SPIDER-MAN: FAR FROM HOME",
+            "seat": [
+              "J7",
+              "J8"
+            ],
+            "totalprice": 70000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "MEN IN BLACK",
+            "seat": [
+              "I13",
+              "I12"
+            ],
+            "totalprice": 70000
+          }
+        ],
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "SAY I LOVE YOU",
+            "seat": [
+              "G11",
+              "G12",
+              "G13",
+              "G14",
+              "G10"
+            ],
+            "totalprice": 175000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "Frozen 2",
+            "seat": [
+              "J10",
+              "J11"
+            ],
+            "totalprice": 70000
+          }
+        ],
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "SAY I LOVE YOU",
+            "seat": [
+              "J11",
+              "J12",
+              "J13"
+            ],
+            "totalprice": 105000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "ANNABELLE COMES HOME",
+            "seat": [
+              "F2",
+              "F3"
+            ],
+            "totalprice": 70000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "YESTERDAY",
+            "seat": [
+              "J11",
+              "J13",
+              "J14"
+            ],
+            "totalprice": 105000
+          }
+        ],
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "ANNA",
+            "seat": [
+              "H11",
+              "H10",
+              "H8"
+            ],
+            "totalprice": 105000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "MEN IN BLACK",
+            "seat": [
+              "J15",
+              "I15"
+            ],
+            "totalprice": 70000
+          }
+        ],
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "SPIDER-MAN: FAR FROM HOME",
+            "seat": [
+              "G11",
+              "G12",
+              "F10",
+              "E10"
+            ],
+            "totalprice": 140000
+          }
+        ]
+      ],
+      "cart": []
+    },
+    {
+      "role": "user",
+      "username": "tester",
+      "password": "123123",
+      "transaction": [
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "ANNA",
+            "seat": [
+              "G13",
+              "G12"
+            ],
+            "totalprice": 70000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "Frozen 2",
+            "seat": [
+              "D10",
+              "D11"
+            ],
+            "totalprice": 70000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "The Lion King",
+            "seat": [
+              "D6",
+              "D5"
+            ],
+            "totalprice": 70000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "ANNABELLE COMES HOME",
+            "seat": [
+              "A9",
+              "A8",
+              "A10"
+            ],
+            "totalprice": 105000
+          }
+        ],
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "MEN IN BLACK",
+            "seat": [
+              "J9",
+              "J8",
+              "J7",
+              "J6",
+              "J5"
+            ],
+            "totalprice": 175000
+          }
+        ]
+      ],
+      "cart": [],
+      "saldo": 4510000,
+      "id": 3
+    },
+    {
+      "role": "user",
+      "username": "testenverd",
+      "password": "123123",
+      "transaction": [],
+      "saldo": 930000,
+      "cart": [],
+      "id": 4
+    },
+    {
+      "role": "user",
+      "username": "test12321",
+      "password": "282828",
+      "transaction": [
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "ANNA",
+            "seat": [
+              "J11",
+              "I11"
+            ],
+            "totalprice": 70000
+          }
+        ],
+        [
+          {
+            "date": "12/7/2019",
+            "movtitle": "ANNABELLE COMES HOME",
+            "seat": [
+              "J8",
+              "J7",
+              "J5",
+              "J6",
+              "C9",
+              "C10",
+              "C11"
+            ],
+            "totalprice": 245000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "SPIDER-MAN: FAR FROM HOME",
+            "seat": [
+              "D6",
+              "D7",
+              "D8"
+            ],
+            "totalprice": 105000
+          },
+          {
+            "date": "12/7/2019",
+            "movtitle": "YESTERDAY",
+            "seat": [
+              "I16",
+              "I17",
+              "I18"
+            ],
+            "totalprice": 105000
+          }
+        ]
+      ],
+      "saldo": 2575000,
+      "cart": [],
+      "id": 5
+    }
+  ],
+  "movies": [
+    {
+      "genre": "Horror",
+      "title": "ANNABELLE COMES HOME",
+      "duration": "120",
+      "synopsis": "Pasangan suami istri Ed Warren (Patrick Wilson) dan Lorraine Warren (Vera Farmiga) sepakat untuk meletakkan boneka Annabelle di ruang khusus mereka. Dibalik lemari kaca suci dan mendapat berkat dari seorang pendeta. Namun malapetaka datang saat Annabelle membangunkan roh-roh jahat yang ada di ruangan itu. Putri pasangan ini, Judy Warren (Mckenna Grace) dan temannya menjadi target teror baru Annabelle dan iblis jahat lainnya.",
+      "playingTime": [
+        "9",
+        "14",
+        "20"
+      ],
+      "director": "Gary Dauberman",
+      "image": "https://roadshow.com.au/-/media/images/roadshow/movies/wb/2019/annabelle-comes-home/poster_237x354.jpg?mw=1224&hash=927A92A37BB5B1D166B845664A923925F1FF8C73&h=354&w=237&la=en",
+      "bannerimg": "http://i3.ytimg.com/vi/bCxm7cTpBAs/maxresdefault.jpg",
+      "video": "https://www.youtube.com/embed/EMa-KFfatT0",
+      "booked": [
+        "I13",
+        "I14",
+        "H9",
+        "H10",
+        "F2",
+        "F3",
+        "J8",
+        "J7",
+        "J5",
+        "J6",
+        "C9",
+        "C10",
+        "C11",
+        "A9",
+        "A8",
+        "A10"
+      ],
+      "id": 1
+    },
+    {
+      "genre": "Action",
+      "title": "SPIDER-MAN: FAR FROM HOME",
+      "duration": "120",
+      "synopsis": "Setelah sibuk membantu kepolisian New York, Peter Parker (Tom Holland) memutuskan tidak membawa kostumnya saat ia melakukan perjalanan dengan teman-teman sekolahnya, MJ (Zendaya), Ned (Jacob Batalon), Betty (Beras Angourie) dan Flash (Tony Revolori). Namun ancaman datang dalam bentuk yang berbeda, teror mulai menyerang kota-kota di Eropa. Kemunculan sosok Mysterio (Jake Gyllenhaal), Nick Fury (Samuel L. Jackson) dan Happy Hogan (Jon Favreau) akan memberi petunjuk dan tugas baru untuk sang manusia laba-laba itu.",
+      "playingTime": [
+        "15",
+        "21"
+      ],
+      "director": "Jon Watts",
+      "bannerimg": "http://i3.ytimg.com/vi/Nt9L1jCKGnE/maxresdefault.jpg",
+      "video": "https://www.youtube.com/embed/Nt9L1jCKGnE",
+      "booked": [
+        "C12",
+        "C13",
+        "F8",
+        "F9",
+        "H8",
+        "H9",
+        "F11",
+        "F12",
+        "I11",
+        "I10",
+        "H10",
+        "J7",
+        "J8",
+        "G11",
+        "G12",
+        "F10",
+        "E10",
+        "D6",
+        "D7",
+        "D8"
+      ],
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/15610878872315_300x430.jpg",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "genre": "Action",
+      "title": "ANNA",
+      "duration": 118,
+      "synopsis": "Di balik keanggunan Anna Poliatova (Sasha Luss) terdapat sebuah rahasia. Model cantik ini adalah senjata yang sangat mematikan. Kemampuannya membunuh di lapangan menjadikan Anna salah satu agen rahasia yang paling ditakuti.",
+      "playingTime": [
+        9,
+        15,
+        23
+      ],
+      "director": "Luc Besson",
+      "bannerimg": "http://i3.ytimg.com/vi/sOYeBlgQdFg/maxresdefault.jpg",
+      "video": "https://www.youtube.com/embed/Z6yTXsCauIc",
+      "booked": [
+        "J9",
+        "J10",
+        "J12",
+        "J13",
+        "H12",
+        "H13",
+        "G18",
+        "G17",
+        "H11",
+        "H10",
+        "H8",
+        "J11",
+        "I11",
+        "G13",
+        "G12"
+      ],
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/155866895248609_300x430.jpg"
+    },
+    {
+      "id": 4,
+      "genre": "Comedy",
+      "title": "YESTERDAY",
+      "duration": 116,
+      "synopsis": "Apa jadinya jika semua orang di dunia tidak mengenal The Beatles?Jack Malik (Himesh Patel) adalah seorang musisi yang sedang berjuang mewujudkan mimpinya. Suatu hari ia memainkan lagu Yesterday karya The Beatles. Namun teman-teman yang mendengarkan Jack tidak mengetahui lagu tersebut.Jack dikisahkan sebagai satu-satunya orang di dunia yang mengingat karya-karya The Beatles.",
+      "playingTime": [
+        12,
+        16,
+        20
+      ],
+      "director": "Danny Boyle",
+      "bannerimg": "http://i3.ytimg.com/vi/H3VeHyedL1U/maxresdefault.jpg",
+      "video": "https://www.youtube.com/embed/Ry9honCV3qc",
+      "booked": [
+        "J11",
+        "J13",
+        "J14",
+        "I16",
+        "I17",
+        "I18"
+      ],
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/156022895488927_300x430.jpg"
+    },
+    {
+      "id": 5,
+      "genre": "Romance",
+      "title": "SAY I LOVE YOU",
+      "duration": 118,
+      "synopsis": "Sheren (Dinda Hauw) tidak hanya mengejar mimpinya, tetapi dia juga berjuang demi cinta. Sheren adalah cewek energik, penuh ide dan penuh harapan. Diam-diam dikagumi Robet (Alvaro Maldini), cowok  tengil dan selalu bikin masalah di sekolah.Bersama dengan Sayydah, Olfa, Yohana, dan Ridwan, Sheren mencoba membangun reputasi sekolah mereka sehingga sekolah lain tidak meremehkan mereka. Sheren punya ikatan kuat dengan sekolah yang telah memberinya sejuta impian dan harapan. Sayang, tidak mudah bagi Sheren maupun Robet memperjuangkan cinta mereka. Karena aturan ketat yang diberlakukan sekolah.",
+      "playingTime": [
+        9,
+        12,
+        16
+      ],
+      "director": "Faozan Rizal",
+      "bannerimg": "http://i3.ytimg.com/vi/NGBdl1iabX0/maxresdefault.jpg",
+      "video": "https://www.youtube.com/embed/NGBdl1iabX0",
+      "booked": [
+        "J8",
+        "J9",
+        "J10",
+        "I10",
+        "I11",
+        "J16",
+        "J17",
+        "J18",
+        "I12",
+        "I13",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G10",
+        "J11",
+        "J12",
+        "J13"
+      ],
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/156025009230162_300x430.jpg"
+    },
+    {
+      "id": 6,
+      "genre": "Science Fiction",
+      "title": "MEN IN BLACK",
+      "duration": 120,
+      "synopsis": "The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest, most global threat to date: a mole in the Men in Black organization.",
+      "playingTime": [
+        8,
+        11,
+        15
+      ],
+      "director": "F. Gary Gray",
+      "bannerimg": "http://i3.ytimg.com/vi/BV-WEb2oxLk/maxresdefault.jpg",
+      "video": "https://www.youtube.com/embed/BV-WEb2oxLk",
+      "booked": [
+        "J16",
+        "J17",
+        "H16",
+        "H18",
+        "J12",
+        "J13",
+        "I13",
+        "I12",
+        "J15",
+        "I15",
+        "J9",
+        "J8",
+        "J7",
+        "J6",
+        "J5"
+      ],
+      "image": "https://resizing.flixster.com/FG0RWXEJSJuiMK2h-vdmqjryyKg=/fit-in/200x296.2962962962963/v1.bTsxMzA1OTEzMjtqOzE4MTUxOzEyMDA7NjA3Mjs5MDAw"
+    },
+    {
+      "genre": "Action",
+      "title": "The Lion King",
+      "duration": "120",
+      "synopsis": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. The battle for Pride Rock is soon ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. Now, with help from a curious pair of newfound friends, Simba must figure out how to grow up and take back what is rightfully his.",
+      "playingTime": [
+        14
+      ],
+      "director": "Jon Favreau",
+      "image": "http://t1.gstatic.com/images?q=tbn:ANd9GcRuhgBlPlz9H3Y8hIyOVL0hMALI-t512zwqZZRdMJ4lw9q_NfMx",
+      "bannerimg": "https://ewedit.files.wordpress.com/2019/04/tlk_32738428934934290324092.jpg",
+      "video": "https://www.youtube.com/embed/7TavVZMewpY",
+      "booked": [
+        "D6",
+        "D5"
+      ],
+      "id": 7
+    },
+    {
+      "genre": "Animation",
+      "title": "Frozen 2",
+      "duration": "120",
+      "synopsis": "Elsa the Snow Queen and her sister Anna embark on an adventure far away from the kingdom of Arendelle. They are joined by friends, Kristoff, Olaf, and Sven.",
+      "playingTime": [
+        9
+      ],
+      "director": "Jennifer Lee, Chris Buck",
+      "image": "http://t1.gstatic.com/images?q=tbn:ANd9GcQ9zeH5BdpNI70YsKp2sV8frH7a06CARKUYCJjhjoJLweq9GNv3",
+      "bannerimg": "https://ichef.bbci.co.uk/news/660/cpsprodpb/14585/production/_105633338_mediaitem105633337.jpg",
+      "video": "https://www.youtube.com/embed/Zi4LMpSDccc",
+      "booked": [
+        "I11",
+        "I12",
+        "J10",
+        "J11",
+        "D10",
+        "D11"
+      ],
+      "id": 8
+    },
+    {
+      "genre": "Animation",
+      "title": "Alladin",
+      "duration": "130",
+      "synopsis": "Aladdin is a lovable street urchin who meets Princess Jasmine, the beautiful daughter of the sultan of Agrabah. While visiting her exotic palace, Aladdin stumbles upon a magic oil lamp that unleashes a powerful, wisecracking, larger-than-life genie. As Aladdin and the genie start to become friends, they must soon embark on a dangerous mission to stop the evil sorcerer Jafar from overthrowing young Jasmine's kingdom.",
+      "playingTime": [
+        9
+      ],
+      "director": "Guy Ritchie",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_.jpg",
+      "bannerimg": "https://static.rogerebert.com/uploads/review/primary_image/reviews/aladdin-2019/hero_aladdin-image-2.jpg",
+      "video": "https://www.youtube.com/embed/foyufD52aog",
+      "booked": [],
+      "id": 9
+    }
+  ]
+}

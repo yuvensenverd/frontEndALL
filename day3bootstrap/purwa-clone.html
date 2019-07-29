@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/1238523d42.js"></script>
+    <style>
+    .header-container{
+        padding: 8px 154px 8px 154px;
+        height: 78px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        position: fixed;
+        top:0px;
+        left: 0px;
+        right: 0px;
+        z-index: 1;
+    }
+    .logo{
+       
+    }
+    .navbar{
+       width: 550px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+       color: #929191;
+       font-weight: bolder;
+    }
+
+    .navbar:hover{
+        cursor: pointer;
+    }
+
+    .sign-button{
+        width: 120px;
+        height: 45px;
+        text-align: center;
+        color: white;
+        border-radius: 120px;
+        background-color: #009687;
+        padding-top: 10px;
+    }
+
+    .body-container{
+       margin-top: 78px;
+    }
+
+    .body-column{
+        
+        height: 100%;
+    }
+    .text{
+        padding-left: 154px;
+        padding-top: 87px;
+        padding-right: 100px;
+    }
+    
+    .judul{
+        font-size: 56px;
+        color:#63bba7;
+        line-height: 84px;
+    }
+    .sub-judul{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color: #666666;
+        padding-top: 5px;
+      
+    }
+
+    .learnmore{
+        font-size: 18.667px;
+        text-align: center;
+        padding-top: 12px;
+        height: 53.325px;
+        width:266.663px;
+        background-color:#53b59f;
+        font-weight: bolder;
+        transition: 300ms;
+        border : 2px solid #53b59f;
+    }
+
+    .learnmore:hover{
+        cursor: pointer;
+        color:#53b59f;
+        background-color: white;
+    }
+    
+    .icons{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #f5f5f5;
+        margin-right: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .icons img{
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .blog{
+        font-size: 16px;
+        border-radius: 75px;
+        height: 50px;
+        background-color: #f5f5f5;
+        border: 2px solid #f5f5f5;
+        color:#848484;
+        padding-top: 5px;
+        font-weight: bolder;
+    }
+
+
+    .secondpage{
+        font-size: 32px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 154px;
+        padding-right: 154px;
+        padding-top: 105px;
+       
+    }
+
+    .point{
+        padding-left : 154px;
+        padding-top : 60px;
+        padding-right : 80px; 
+        padding-bottom : 30px;
+       
+        
+    }
+
+    .gambar img{
+        width: 98.1px;
+        height: 98.1px;
+    }
+
+    .vidtext{
+        padding-right: 130px;
+    }
+
+    .pointtext{
+        font-size: 18.667px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #727272;
+        line-height: 33.6px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+    }
+
+    .text-video-judul{
+        font-size: 16px;
+        color: #53b59f;
+        margin-bottom: 20px;
+        font-weight: bolder
+    }
+
+    .video-judul{
+        font-size: 32px;
+        color: #666666;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+
+    .mobile-icon{
+        display: none
+    }
+
+    @media only screen and (max-width : 767px){
+
+
+        .navbar{
+            display:none;
+        }
+
+        .mobile-icon{
+            display: inline-block
+        }
+    }
+
+    
+    
+    </style>
+
+</head>
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            <div class="logo ">
+                <img src="logopurwadhika.png" height="49.65px" width="240px" class="img-fluid">
+            </div>
+            <div class="mobile-icon"> <i class="fas fa-bars"></i> </div>
+            <div class="navbar ">
+                <div class="link-item p-8 ">
+                    Courses
+                </div>
+                <div class="link-item p-8 ">
+                    Community
+                </div>
+                <div class="link-item p-8 ">
+                    Student Life
+                </div>
+                <div class="link-item p-8 ">
+                    About
+                </div>
+                <div class="sign-button">
+                    Sign In
+                </div>
+            </div>
+        </div>
+        <div class="row body-container">
+            <div class="col-sm-6 body-column text">
+                <div class="judul">Siapkah Kamu</div>
+                <div class="judul">menghadapi Era</div>
+                <div class="judul">Digital?</div><br>
+                <div class="sub-judul">Lengkapi diri dengan keahlian digital </div>
+                <div class="sub-judul">seperti Coding, Data Science, Digital  </div>
+                <div class="sub-judul">Marketing, dan UI/UX dengan pilihan  </div>
+                <div class="sub-judul">program training Kami </div><br>
+                <div class="sign-button learnmore font-weight-bold">Pelajari Lebih Lanjut</div>
+                <div class="p-2 d-flex ">
+                    <div class="icons">
+                        <img src="./33-332477_follow-us-instagram-logo-grey-color.png" >
+                    </div>
+                    <div class="icons">
+                        <img src="./fb-logo.png">
+                    </div>
+                    <div class="icons">
+                        <img src="./ln-logo.png">
+                    </div>
+                    <div class="icons">
+                        <img src="./yt-logo.png">
+                    </div>
+                    <button class="sign-button blog"> Blog </button>
+
+
+                </div>
+            </div>
+            <div class="col-sm-6 body-column">
+                <img src="./banner6.1799d6b4.png" width="100%">
+                
+            </div>
+        </div>
+        <div class="judul secondpage text-center">
+            Mengapa Pilih Purwadhika?
+        </div>
+        <div class="row point">
+            <div class="row col-md-6">
+                <div class="col-md-3 gambar">
+                    <img src="./gambar11.png">
+                </div>
+                <div class="col-md-9 pointtext ">
+                    <p class="font-weight-bold">31 tahun pengalaman di dunia pendidikan</p>
+                    <p>31 tahun pengalaman di dunia Pendidikan teknologi telah mempertajam pengalaman dan komitmen kami untuk dapat memberikan pendidikan yang terbaik untuk Anda.</p>
+                </div>
+            </div>
+            <div class="row col-md-6">
+                <div class="col-md-3 gambar">
+                    <img src="./gambar12.png">
+                </div>
+                <div class="col-md-9 pointtext ">
+                    <p class="font-weight-bold">Kurikulum yang relevan dengan Industri</p>
+                    <p>Rancangan kurikulum kami selalu beradaptasi dengan perubahan yang terjadi di industri karena kami menyadari perkembangan teknologi bergerak sangat cepat.</p>
+                </div>
+            </div>
+            <div class="row col-md-6">
+                <div class="col-md-3 gambar">
+                    <img src="./gambar21.png">
+                </div>
+                <div class="col-md-9 pointtext">
+                    <p class="font-weight-bold">Akses luas ke jaringan ekosistem digital</p>
+                    <p>Akses kepada lebih dari +500 Perusahaan Hiring Partner Purwadhika, Investor, Venture Capital, Startup Founder dan masih banyak lagi.</p>
+                </div>
+                
+            </div>
+            <div class="row col-md-6">
+                <div class="col-md-3 gambar">
+                    <img src="./gambar22.png">
+                </div>
+                <div class="col-md-9 pointtext">
+                    <p class="font-weight-bold">Belajar dengan berkarya</p>
+                    <p>Kami selalu mewajibkan adanya real project di setiap program training kami agar ilmu yang telah Anda pelajari di dalam kelas dapat terlihat dan dirasakan langsung manfaatnya.</p>
+                </div>
+                
+            </div>
+
+            
+    
+
+
+        </div>
+        <div class="row point">
+            <div class="col-md-8">
+                <iframe class="embed-responsive" width="814px" height="592px" src="https://www.youtube.com/embed/QK5BevTX0DU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4 vidtext">
+                <div class="text-video-judul"> Purwadhika TV | 22 Apr 2018</div>
+                <div class="video-judul">Sneak Peek on Purwadhika Startup & Coding School</div>
+                <div class="pointtext">Here's some sneak peek on Purwadhika Startup & Coding School programs. On this channel you can see many activities that happened on our campuses...</div>
+                <div class="sign-button learnmore font-weight-bold">Lihat Video </div>
+            </div>
+        </div>
+
+
+       
+
+
+    </div>
+    
+</body>
+</html>

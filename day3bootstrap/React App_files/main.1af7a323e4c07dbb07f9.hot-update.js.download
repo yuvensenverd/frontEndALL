@@ -1,0 +1,158 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/apiWilayah.jsx":
+/*!***************************************!*\
+  !*** ./src/components/apiWilayah.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Enverd\\Purwadhika\\FrontEnd\\reactenverd\\src\\components\\apiWilayah.jsx";
+
+
+
+
+class Wilayah extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      provinsi: [],
+      kabupaten: []
+    };
+
+    this.printDataProvinsi = () => {
+      var list = this.state.provinsi.map(val => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+          value: val.id,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28
+          },
+          __self: this
+        }, " ", val.name, " ");
+      });
+      return list;
+    };
+
+    this.printDataKabupaten = () => {};
+  }
+
+  componentDidMount() {
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('https://x.rajaapi.com/MeP7c5neRZPPYYYeRvsoXaByj8v52nAfAvwm2BYhRdf4soquXNE7729t1F/m/wilayah/provinsi').then(res => {
+      console.log(res.data.data);
+      this.setState({
+        provinsi: res.data.data
+      });
+    }).catch(err => {
+      console.log(err);
+    });
+  }
+
+  componentWillMount() {}
+
+  render() {
+    if (this.state.provinsi.length === 0) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, "Loading .. . .. "));
+    }
+
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container mt-5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, "API Wilayah Indonesia")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "row justify-content-center mt-5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "col-md-4 ",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Input"], {
+      ref: "provinsi",
+      innerRef: "innerprovinsi",
+      className: "border border-primary",
+      type: "select",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
+      },
+      __self: this
+    }, "Pilih Provinsi"), this.printDataProvinsi())), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "col-md-4",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Input"], {
+      className: "border border-primary",
+      type: "select",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      onClick: this.printDataKabupaten(),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60
+      },
+      __self: this
+    }, "Pilih Kabupaten")))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Wilayah);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.1af7a323e4c07dbb07f9.hot-update.js.map
